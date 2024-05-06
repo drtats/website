@@ -1,0 +1,54 @@
+/* CSS property for header section */
+.header
+{
+    background-color: green;
+    display: flex;
+    align-items: center; /* center vertically */
+    justify-content: center; /* center horizontally */
+    padding: 0px;
+}
+
+/* CSS property for navigation menu */
+.nav_menu
+{
+    overflow: hidden;
+    background-color: rgb(4, 0, 128);
+}
+
+.nav_menu a
+{
+    float:left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1px 10px;
+    text-decoration: none;
+}
+
+.nav_menu a:hover
+{
+    background-color: white;
+    color: green;
+}
+
+/* text style */
+
+.img_location {
+    width: 35%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Form */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+}
+
