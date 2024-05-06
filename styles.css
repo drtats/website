@@ -1,3 +1,29 @@
+/* For desktop */
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Adjust font sizes for specific elements */
+h1 {
+    font-size: 2rem; /* Twice the base font size */
+}
+
+p {
+    font-size: 1rem;
+}
+
+/* For mobile */
+@media  and (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+
 /* CSS property for header section */
 .header
 {
