@@ -59,11 +59,13 @@ p {
 
 /* text style */
 
+/* images */
 .img_location {
     width: 35%;
     display: block;
     margin: 0 auto;
 }
+
 
 /* Form */
 .container {
@@ -76,5 +78,38 @@ p {
 form {
     display: inline-block;
     text-align: left;
+}
+
+/* masonry style */
+.masonry-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust the width of grid items */
+    grid-gap: 20px; /* Add space between grid items */
+    margin: 10px;
+}
+
+.masonry-item {
+    position: relative; /* Ensure proper positioning of content */
+    overflow: hidden; /* Prevent iframe overflow */
+    cursor: pointer;
+}
+
+.masonry-item iframe {
+    max-width: 100%; /* Ensure iframes occupy full width of their container */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    transition: transform 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.masonry-item:hover iframe {
+    transform: scale(1.1); /* Zoom effect on hover */
+}
+
+.caption {
+    padding: 10px;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin-top: 10px; /* Add margin to separate caption from iframe */
 }
 
