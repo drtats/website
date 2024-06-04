@@ -113,3 +113,61 @@ form {
     margin-top: 10px; /* Add margin to separate caption from iframe */
 }
 
+li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+
+.main-section {
+    margin-bottom: 40px;
+}
+
+.sub-section {
+    margin-bottom: 20px;
+}
+
+/* Card */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    width: 300px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.learn-more {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
