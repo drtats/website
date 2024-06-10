@@ -1,173 +1,170 @@
 /* For desktop */
 body {
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Adjust font sizes for specific elements */
 h1 {
-    font-size: 2rem; /* Twice the base font size */
+	font-size: 2rem; /* Twice the base font size */
 }
 
 p {
-    font-size: 1rem;
+	font-size: 1rem;
 }
 
 /* For mobile */
 @media only screen and (max-width: 767px) {
-    body {
-        font-size: 14px;
-    }
+	body {
+		font-size: 14px;
+	}
 
-    h1 {
-        font-size: 1.5rem;
-    }
+	h1 {
+		font-size: 1.5rem;
+	}
 }
 
 /* CSS property for header section */
-.header
-{
-    background-color: green;
-    display: flex;
-    align-items: center; /* center vertically */
-    justify-content: center; /* center horizontally */
-    padding: 0px;
+.header {
+	background-color: green;
+	display: flex;
+	align-items: center; /* center vertically */
+	justify-content: center; /* center horizontally */
+	padding: 0px;
 }
 
 /* CSS property for navigation menu */
-.nav_menu
-{
-    overflow: hidden;
-    background-color: rgb(4, 0, 128);
+.nav_menu {
+	overflow: hidden;
+	background-color: rgb(4, 0, 128);
 }
 
-.nav_menu a
-{
-    float:left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 1px 10px;
-    text-decoration: none;
+.nav_menu a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 1px 10px;
+	text-decoration: none;
 }
 
-.nav_menu a:hover
-{
-    background-color: white;
-    color: green;
+.nav_menu a:hover {
+	background-color: white;
+	color: green;
 }
 
 /* text style */
 
 /* images */
 .img_location {
-    width: 35%;
-    display: block;
-    margin: 0 auto;
+	width: 35%;
+	display: block;
+	margin: 0 auto;
 }
-
 
 /* Form */
 .container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
 }
 
 form {
-    display: inline-block;
-    text-align: left;
+	display: inline-block;
+	text-align: left;
 }
 
 /* masonry style */
 .masonry-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust the width of grid items */
-    grid-gap: 20px; /* Add space between grid items */
-    margin: 10px;
+	display: grid;
+	grid-template-columns: repeat(
+		auto-fit,
+		minmax(300px, 1fr)
+	); /* Adjust the width of grid items */
+	grid-gap: 20px; /* Add space between grid items */
+	margin: 10px;
 }
 
 .masonry-item {
-    position: relative; /* Ensure proper positioning of content */
-    overflow: hidden; /* Prevent iframe overflow */
-    cursor: pointer;
+	position: relative; /* Ensure proper positioning of content */
+	overflow: hidden; /* Prevent iframe overflow */
+	cursor: pointer;
 }
 
 .masonry-item iframe {
-    max-width: 100%; /* Ensure iframes occupy full width of their container */
-    height: auto; /* Maintain aspect ratio */
-    display: block;
-    transition: transform 0.3s ease;
-    margin-bottom: 10px;
+	max-width: 100%; /* Ensure iframes occupy full width of their container */
+	height: auto; /* Maintain aspect ratio */
+	display: block;
+	transition: transform 0.3s ease;
+	margin-bottom: 10px;
 }
 
 .masonry-item:hover iframe {
-    transform: scale(1.1); /* Zoom effect on hover */
+	transform: scale(1.1); /* Zoom effect on hover */
 }
 
 .caption {
-    padding: 10px;
-    text-align: center;
-    background-color: #f0f0f0;
-    margin-top: 10px; /* Add margin to separate caption from iframe */
+	padding: 10px;
+	text-align: center;
+	background-color: #f0f0f0;
+	margin-top: 10px; /* Add margin to separate caption from iframe */
 }
 
 li {
-    margin-bottom: 10px;
-    padding-bottom: 5px;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
 }
 
-
 .main-section {
-    margin-bottom: 40px;
+	margin-bottom: 40px;
 }
 
 .sub-section {
-    margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 /* Card */
 .card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: left;
+	gap: 20px;
 }
 
 .card {
-    width: 300px;
-    background-color: #f4f4f4;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
+	width: 300px;
+	background-color: #f4f4f4;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
 }
 
 .card img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
 }
 
 .card-content {
-    padding: 20px;
+	padding: 20px;
 }
 
 .card h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
+	font-size: 20px;
+	margin-bottom: 10px;
 }
 
 .card p {
-    font-size: 14px;
-    margin-bottom: 20px;
+	font-size: 14px;
+	margin-bottom: 20px;
 }
 
 .learn-more {
-    display: inline-block;
-    padding: 8px 16px;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 4px;
+	display: inline-block;
+	padding: 8px 16px;
+	background-color: #007bff;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 4px;
 }
