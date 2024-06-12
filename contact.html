@@ -1,48 +1,54 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="styles.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>
-            Contact me
-        </title>
-    </head>
-    <body>
-        <div class="header">
-            <h2 style="color:white; font-size: 200%; margin: 0;">
-                dr. tats
-            </h2>
-        </div>
+	<head>
+		<link rel="stylesheet" href="styles.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Contact me</title>
+	</head>
+	<body>
+		<div class="header">
+			<h2 style="color: white; font-size: 200%; margin: 0">dr. tats</h2>
+		</div>
 
-        <!-- navigation menue for website layout-->
-        <div class="nav_menu">
-            <a href="index.html">Home</a>
-            <a href="interest.html">Interest</a>
-            <a href="images.html">Image/Video</a>
-            <a href="ASM2024.html">ASM2024</a>
-            <a href="publications.html">Publications</a>
-            <a href="#">Games</a>
-            <a href="contact.html">Contact</a>
-        </div>
+		<!-- navigation menue for website layout-->
+		<div class="nav_menu">
+			<a href="index.html">Home</a>
+			<a href="interest.html">Interest</a>
+			<a href="images.html">Image/Video</a>
+			<a href="ASM2024.html">ASM2024</a>
+			<a href="publications.html">Publications</a>
+			<a href="#">Games</a>
+			<a href="contact.html">Contact</a>
+		</div>
 
-        <div class="container">
-            <form method="post" action="https://api.web3forms.com/submit">
-                <input type="hidden" name="access_key" value="909b41a6-1ff5-48b4-bdec-7a2999dc9fee">
-                <p style="margin: 0px;">Name</p>
-                <input type="text" name="name" required>
-                <br>
-                <p style="margin: 0px;">e-mail</p>
-                <input type="email" name="email" required>
-                <br>
-                <p style="margin: 0px;">Message (100 word limit)</p>
-                <textarea name="message" rows="6" cols="30" maxlength="500" required></textarea>
-                <br>
+		<div class="container">
+			<form method="post" action="https://api.web3forms.com/submit">
+				<input
+					type="hidden"
+					name="access_key"
+					value="909b41a6-1ff5-48b4-bdec-7a2999dc9fee"
+				/>
+				<p style="margin: 0px">Name</p>
+				<input type="text" name="name" required />
+				<br />
+				<p style="margin: 0px">e-mail</p>
+				<input type="email" name="email" required />
+				<br />
+				<p style="margin: 0px">Message (100 word limit)</p>
+				<textarea
+					name="message"
+					rows="6"
+					cols="30"
+					maxlength="500"
+					required
+				></textarea>
+				<br />
 
-                <div class="h-captcha" data-captcha="true"></div>
+				<div class="h-captcha" data-captcha="true"></div>
 
-                <button type="submit">Submit Form</button>
-            </form>
-            <script src="https://web3forms.com/client/script.js" async defer></script>
-        </div>
-    </body>
+				<button type="submit">Submit Form</button>
+			</form>
+			<script src="https://web3forms.com/client/script.js" async defer></script>
+		</div>
+	</body>
 </html>
